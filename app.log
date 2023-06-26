@@ -1561,3 +1561,7 @@ INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:50:53] "GET /companies HTTP/1.1" 200
 INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:51:27] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:51:28] "GET /userprojects HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:51:29] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
