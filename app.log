@@ -1,0 +1,1563 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:15:14] "POST /users HTTP/1.1" 200 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:15:21] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:15:40] "[35m[1mGET /projects HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:15:43] "[35m[1mGET /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:27:06] "POST /users HTTP/1.1" 200 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:27:12] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:32:29] "DELETE /users/5 HTTP/1.1" 200 -
+ERROR:root:Attempt to use a closed cursor.
+ERROR:app:Attempt to use a closed cursor.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:32:34] "[35m[1mDELETE /users/6 HTTP/1.1[0m" 500 -
+ERROR:root:Attempt to use a closed cursor.
+ERROR:app:Attempt to use a closed cursor.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:32:39] "[35m[1mDELETE /users/7 HTTP/1.1[0m" 500 -
+ERROR:root:Attempt to use a closed cursor.
+ERROR:app:Attempt to use a closed cursor.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:33:15] "[35m[1mDELETE /users/6 HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:33:27] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+ERROR:root:Attempt to use a closed cursor.
+ERROR:app:Attempt to use a closed cursor.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:33:37] "[35m[1mDELETE /users/5 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:33:44] "[33mDELETE /users/ HTTP/1.1[0m" 404 -
+ERROR:root:Attempt to use a closed cursor.
+ERROR:app:Attempt to use a closed cursor.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:33:50] "[35m[1mDELETE /users/6 HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:36:23] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:38:08] "GET /users HTTP/1.1" 200 -
+ERROR:root:'pyodbc.Cursor' object has no attribute 'lastrowid'
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:38:22] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:42:45] "POST /users HTTP/1.1" 200 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:42:50] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:45:01] "GET /users HTTP/1.1" 200 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+ERROR:app:Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:45:20] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+ERROR:root:The cursor's connection has been closed.
+ERROR:app:The cursor's connection has been closed.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:46:09] "[35m[1mDELETE /users/6 HTTP/1.1[0m" 500 -
+ERROR:root:The cursor's connection has been closed.
+ERROR:app:The cursor's connection has been closed.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:46:14] "[35m[1mDELETE /users/5 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:50:56] "GET /users HTTP/1.1" 200 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:08] "[35m[1mGET /users/NuaVal HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:11] "[35m[1mGET /projects HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:14] "[35m[1mGET /companies HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+ERROR:app:Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:18] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:58] "GET /users HTTP/1.1" 200 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:52:30] "[35m[1mGET /users/employees HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:56:30] "GET /users/employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:56:47] "GET /users HTTP/1.1" 200 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+ERROR:app:Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:56:59] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:57:36] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:57:36] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:57:40] "GET /users/employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:57:49] "GET /users/NuaVal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:57:54] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:57:58] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:58:01] "GET /users/employees HTTP/1.1" 200 -
+ERROR:app:Database query error: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'employees'. (208) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:58:16] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:03:17] "POST /users HTTP/1.1" 200 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:03:22] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:03:27] "[35m[1mGET /projects HTTP/1.1[0m" 500 -
+ERROR:root:The cursor's connection has been closed.
+ERROR:app:The cursor's connection has been closed.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:07] "[35m[1mDELETE /users/5 HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+ERROR:app:Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:53] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:08:54] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:02] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:07] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:19] "GET /users/NuaVal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:26] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:44] "DELETE /users/5 HTTP/1.1" 200 -
+ERROR:root:Attempt to use a closed cursor.
+ERROR:app:Attempt to use a closed cursor.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:59] "[35m[1mDELETE /users/6 HTTP/1.1[0m" 500 -
+ERROR:root:Attempt to use a closed cursor.
+ERROR:app:Attempt to use a closed cursor.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:10:04] "[35m[1mDELETE /users/6 HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:10:08] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+ERROR:root:Attempt to use a closed cursor.
+ERROR:app:Attempt to use a closed cursor.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:10:53] "[35m[1mDELETE /users/6 HTTP/1.1[0m" 500 -
+ERROR:root:Attempt to use a closed cursor.
+ERROR:app:Attempt to use a closed cursor.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:10:57] "[35m[1mDELETE /users/6 HTTP/1.1[0m" 500 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:11:01] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:11:41] "DELETE /users/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:11:44] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:root:'pyodbc.Cursor' object has no attribute 'lastrowid'
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:15:45] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:17:17] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:17:38] "GET /users/PFIZER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:17:47] "GET /users/NuaVal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:18:20] "GET /users/PFIZER_PRJ_1 HTTP/1.1" 200 -
+ERROR:root:'pyodbc.Cursor' object has no attribute 'lastrowid'
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:17] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:47] "GET /users HTTP/1.1" 200 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:23:30] "[35m[1mDELETE /users/6 HTTP/1.1[0m" 500 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:23:37] "[35m[1mDELETE /users/5 HTTP/1.1[0m" 500 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:24:11] "[35m[1mDELETE /users/5 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:24:53] "[35m[1mDELETE /users/5 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:24:56] "GET /users HTTP/1.1" 200 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:25:04] "[35m[1mDELETE /users/5 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:28:54] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:29:16] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:30:13] "GET /users HTTP/1.1" 200 -
+ERROR:root:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '='. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:30:38] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:30:44] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:root:('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "fk_UserProjects_Users". The conflict occurred in database "timesheet2", table "dbo.UserProjects", column \'UserID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:33:39] "[35m[1mDELETE /users/4 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:root:('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "fk_UserProjects_Users". The conflict occurred in database "timesheet2", table "dbo.UserProjects", column \'UserID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:34:24] "[35m[1mDELETE /users/4 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:34:56] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:35:12] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:35:13] "GET /companies HTTP/1.1" 200 -
+ERROR:root:('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "fk_UserProjects_Users". The conflict occurred in database "timesheet2", table "dbo.UserProjects", column \'UserID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:35:19] "[35m[1mDELETE /users/4 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:root:('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "fk_UserProjects_Users". The conflict occurred in database "timesheet2", table "dbo.UserProjects", column \'UserID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:39:04] "[35m[1mDELETE /users/4 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:39:09] "GET /users HTTP/1.1" 200 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:39:12] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:39:18] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:39:43] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:39:50] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:46] "[33mDELETE /users/jane%20done HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:50] "[33mDELETE /users/jane%20doe HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:46:12] "[33mDELETE /users/John%20Devlin HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:47:25] "[33mDELETE /users/John HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:47:44] "[33mDELETE /users/Mick HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:root:('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "fk_UserProjects_Users". The conflict occurred in database "timesheet2", table "dbo.UserProjects", column \'UserID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:25] "[35m[1mDELETE /users/1 HTTP/1.1[0m" 500 -
+ERROR:root:('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "fk_UserProjects_Users". The conflict occurred in database "timesheet2", table "dbo.UserProjects", column \'UserID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:52:10] "[35m[1mDELETE /users/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:root:('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "fk_UserProjects_Users". The conflict occurred in database "timesheet2", table "dbo.UserProjects", column \'UserID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:53:00] "[35m[1mDELETE /users/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:53:17] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:08] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:55:17] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:55:20] "GET /users/PFIZER_PRJ_1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:55:23] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:55:26] "GET /users/NuaVal HTTP/1.1" 200 -
+ERROR:root:('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "fk_UserProjects_Users". The conflict occurred in database "timesheet2", table "dbo.UserProjects", column \'UserID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:55:29] "[35m[1mDELETE /users/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "fk_UserProjects_Users". The conflict occurred in database "timesheet2", table "dbo.UserProjects", column \'UserID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:00:33] "[35m[1mDELETE /users/John HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:07:16] "DELETE /users/John HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:07:21] "GET /users HTTP/1.1" 200 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:08:12] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:09:05] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:10:01] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:10:25] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:15:17] "[33mPOST /users HTTP/1.1[0m" 404 -
+ERROR:root:'pyodbc.Cursor' object has no attribute 'lastrowid'
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:15:24] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:17:50] "[31m[1mPOST /users HTTP/1.1[0m" 409 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:18:30] "DELETE /users/Jane HTTP/1.1" 200 -
+ERROR:root:('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'UserID', table 'timesheet2.dbo.UserProjects'; column does not allow nulls. INSERT fails. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:18:46] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:25:38] "[31m[1mPOST /users HTTP/1.1[0m" 409 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:25:46] "DELETE /users/Jane HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:25:49] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:25:54] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:42:13] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:47:02] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:48:41] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:54:18] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:56:30] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:59:07] "GET /users/NuaVal HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Unknown error: 'name'
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 10:35:30] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Unknown error: 'name'
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 10:36:53] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:405 Method Not Allowed: The method is not allowed for the requested URL.
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 11:01:11] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:405 Method Not Allowed: The method is not allowed for the requested URL.
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 11:01:48] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:405 Method Not Allowed: The method is not allowed for the requested URL.
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:18:28] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:19:34] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:21:15] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:21:28] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:add_company() missing 1 required positional argument: 'name'
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:22:03] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:22:34] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:28:55] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+ERROR:root:400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:29:20] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+ERROR:root:400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:30:10] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+ERROR:root:400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:30:17] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+ERROR:root:400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:30:24] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+ERROR:root:400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:30:34] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:30:43] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+ERROR:root:400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 3 column 1 (char 25)
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:31:11] "[35m[1mPOST /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:31:49] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:36:42] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:37:28] "[35m[1mPOST /companies HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:37:45] "GET /companies HTTP/1.1" 200 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:47:36] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:48:23] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:48:28] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:48:39] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Database query error: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ID'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:50:39] "[35m[1mPOST /projects HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:52:19] "[35m[1mPOST /projects HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 12:52:28] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 10:51:35] "PUT /companies HTTP/1.1" 200 -
+ERROR:app:Database query error: Attempt to use a closed connection.
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 10:51:45] "[35m[1mGET /companies HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 10:52:38] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:405 Method Not Allowed: The method is not allowed for the requested URL.
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 11:33:10] "[35m[1mPUT /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:405 Method Not Allowed: The method is not allowed for the requested URL.
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 11:34:58] "[35m[1mPUT /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 11:35:47] "PUT /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 12:51:23] "[31m[1mPUT /users HTTP/1.1[0m" 400 -
+ERROR:app:405 Method Not Allowed: The method is not allowed for the requested URL.
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 12:51:54] "[35m[1mPUT /users/updaterole HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Role'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 12:52:34] "[35m[1mPUT /users/updaterole HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Roles'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 12:53:48] "[35m[1mPUT /users/updaterole HTTP/1.1[0m" 500 -
+ERROR:app:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Roles'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 12:54:50] "[35m[1mPUT /users/updaterole HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 14:19:06] "GET /users HTTP/1.1" 200 -
+INFO:app:User role updated successfully: Michael Joseph
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 14:20:44] "PUT /users/update_role HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 14:20:50] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Name'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 14:57:56] "[35m[1mPUT /projects HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Name'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 14:59:05] "[35m[1mPUT /projects HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 15:00:32] "PUT /projects/update_projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 15:00:42] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:405 Method Not Allowed: The method is not allowed for the requested URL.
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 15:23:00] "[35m[1mPUT /users/updaterole HTTP/1.1[0m" 500 -
+ERROR:app:405 Method Not Allowed: The method is not allowed for the requested URL.
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 15:23:16] "[35m[1mPUT /users/updaterole HTTP/1.1[0m" 500 -
+ERROR:app:KeyError: 'role'
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 15:23:37] "[31m[1mPUT /users/update_role HTTP/1.1[0m" 400 -
+INFO:app:User role updated successfully: Shagil Chaudhary
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 15:24:06] "PUT /users/update_role HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2023 15:24:13] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2023 15:40:14] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2023 15:40:20] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2023 15:40:30] "GET /users/NuaVal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2023 15:40:45] "GET /users/WUXI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2023 15:40:49] "GET /users/WU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2023 15:41:00] "GET /users/NuaVal HTTP/1.1" 200 -
+ERROR:app:Database query error: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RoleID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2023 15:41:13] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2023 15:42:51] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2023 15:43:06] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+ERROR:app:Database query error: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RoleID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:04:57] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/shaggy/Desktop/kpc inter-trade documents/coding/regular user/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:09:00] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:11:17] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:13:31] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:14:11] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:14:45] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:15:55] "GET /users/NuaVal HTTP/1.1" 200 -
+ERROR:root:400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:24:29] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+ERROR:root:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RoleID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:26:51] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/shaggy/Desktop/kpc inter-trade documents/coding/regular user/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+ERROR:root:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RoleID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:50:03] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+ERROR:root:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RoleID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:50:22] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+ERROR:root:'first_name'
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:53:52] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:54:00] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:54:42] "[35m[1mPOST /companies HTTP/1.1[0m" 201 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:55:47] "[31m[1mPOST /companies HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 09:56:24] "[35m[1mPOST /companies HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 10:42:56] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 10:43:04] "[35m[1mPOST /projects HTTP/1.1[0m" 201 -
+ERROR:root:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RoleID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 10:43:53] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:05:37] "[33mPOST /users HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:07:02] "[33mPOST /users HTTP/1.1[0m" 404 -
+ERROR:root:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RoleID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:07:56] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+ERROR:root:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RoleID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:34:59] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/shaggy/Desktop/kpc inter-trade documents/coding/regular user/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+ERROR:root:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ProjectID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:39:19] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/shaggy/Desktop/kpc inter-trade documents/coding/regular user/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+ERROR:root:('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'UserID', table 'timesheet2.dbo.UserProjects'; column does not allow nulls. INSERT fails. (515) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:40:08] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+ERROR:root:('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert explicit value for identity column in table 'Users' when IDENTITY_INSERT is set to OFF. (544) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:44:49] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+ERROR:root:('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert explicit value for identity column in table 'Users' when IDENTITY_INSERT is set to OFF. (544) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:45:06] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:54:16] "[31m[1mPOST /users HTTP/1.1[0m" 409 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+ERROR:root:('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'UserRoles'. (208) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 11:59:51] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:26:46] "[31m[1mPOST /users HTTP/1.1[0m" 409 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+ERROR:root:('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'RoleID', table 'timesheet2.dbo.UserProjects'; column does not allow nulls. INSERT fails. (515) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:30:12] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:31:45] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:35:25] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:38:01] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:38:36] "PUT /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:38:41] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:41:00] "PUT /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:41:10] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:42:49] "PUT /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:51:05] "PUT /projects/update_projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:53:01] "[33mPOST /projects HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:53:08] "[35m[1mPOST /companies HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:53:12] "[35m[1mPOST /projects HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 12:53:38] "PUT /projects/update_projects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/shaggy/Desktop/kpc inter-trade documents/coding/regular user/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+ERROR:app:Database error: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'RoleID'. (207) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 13:04:33] "[35m[1mPUT /users/update_role HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:app:User role updated successfully: Samantha Smith
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 13:08:13] "PUT /users/update_role HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 21:15:31] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 831-324-434
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 23:53:47] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 23:53:51] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2023 23:53:58] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 00:20:27] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 00:21:18] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 00:31:56] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 00:46:28] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 00:47:20] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 00:48:22] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 00:49:47] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 00:56:05] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 00:58:12] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 01:07:13] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 01:14:47] "[35m[1mPOST /companies HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 01:16:53] "[35m[1mPOST /projects HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 01:20:15] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 01:21:13] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 01:23:42] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 01:38:33] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 01:42:08] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 09:08:38] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 09:09:08] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 09:11:25] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 10:23:10] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 10:23:14] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 10:23:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 10:25:10] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 10:25:14] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 10:25:42] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 10:57:34] "GET /users/NuaVal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 10:57:39] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 10:57:58] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 11:29:12] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 11:30:02] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 11:30:43] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 11:32:25] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 11:32:52] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 11:36:00] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 11:36:35] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:03:48] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:28:09] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:29:46] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:29:46] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:29:54] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:47:54] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:48:04] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:48:10] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:48:15] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:48:21] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 12:48:25] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 13:01:17] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 13:01:47] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 13:01:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 13:01:48] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 13:02:01] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 13:55:43] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 13:56:01] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:07:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:07:48] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:07:49] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:16:49] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:16:54] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:33:23] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:33:53] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:34:37] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:34:39] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:34:53] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:35:02] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:35:07] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:35:36] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:35:38] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:55:45] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:55:45] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 14:55:46] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:04:44] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:04:44] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:04:46] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:08:57] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:10:58] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:11:02] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:14:45] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:15:15] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:15:19] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:15:27] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:15:31] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:15:37] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:16:45] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:16:58] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:16:59] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:16:59] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:17:15] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:17:15] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:17:16] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:18:04] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:18:25] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:18:45] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:18:56] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:18:56] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:18:58] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:18:59] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:19:00] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:19:06] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:19:06] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:19:07] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:19:14] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:19:21] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:19:55] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:19:55] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:23:46] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 15:56:32] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/May/2023 16:07:26] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:52:23] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:52:23] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:52:24] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:52:26] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:58:09] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:58:38] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:59:11] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:59:26] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:59:26] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 08:59:28] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:00:36] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:07:47] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:08:14] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:21:22] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:21:34] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:21:35] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:21:37] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:21:38] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:21:40] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:21:45] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:21:50] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:22:10] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:23:54] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:23:54] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:16] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:17] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:33] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:34] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:37] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:37] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:38] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:41] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:41] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:43] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:24:43] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:32:32] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:32:32] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 09:32:33] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:09:30] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:09:31] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:09:32] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:09:33] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:13:15] "GET /users/all_info?SelectedUser=Daniel%20Devlin&SelectedProject=NuaVal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:19:13] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:19:13] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:19:14] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:19:14] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:20:59] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:21:00] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:24:24] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:24:25] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:24:37] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:25:32] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:26:46] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:26:51] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:29:27] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:30:28] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:30:28] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:30:29] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:36:52] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:36:53] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:36:57] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:36:58] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:37:38] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:37:56] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:38:09] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:39:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:39:49] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:39:50] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:39:55] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:40:14] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:40:14] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:40:15] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 10:40:18] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:14:36] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:14:37] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:14:38] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:14:45] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:37:02] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:45:05] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:46:04] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:47:34] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:49:00] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:52:39] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:52:46] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:52:47] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:53:07] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:53:21] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:53:35] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:53:42] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:53:46] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:58:25] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 11:58:28] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:01:41] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:02:58] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:03:00] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:03:02] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:03:10] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:03:11] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:03:18] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:03:19] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:04:25] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:04:25] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:04:29] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:04:31] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:05:04] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:05:05] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:05:45] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:05:45] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:08:17] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:08:17] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:09:42] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:39:24] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:39:25] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:39:27] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:39:31] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 12:40:58] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:28:06] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:28:06] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:28:09] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:30:48] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:30:56] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:30:57] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:31:02] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:50:32] "[33mPOST /authenticate HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:52:10] "[33mPOST /authenticate HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:52:15] "[33mPOST /authenticate HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Error during authentication: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'UsersCredentials'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:53:26] "[35m[1mPOST /authenticate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:55:39] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Error during authentication: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'UsersCredentials'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:58:53] "[35m[1mPOST /authenticate HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 14:59:31] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 15:06:42] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 15:06:47] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 15:06:47] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 15:06:49] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 15:06:50] "GET /users/all_info HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 15:27:58] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 15:35:45] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 15:53:18] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 16:09:11] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 16:09:16] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2023 16:09:21] "GET /users/all_info HTTP/1.1" 200 -
+ERROR:app:Database query error: ('HY000', '[HY000] [Microsoft][ODBC Driver 17 for SQL Server]Connection is busy with results for another command (0) (SQLExecDirectW)')
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:34:27] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:34:27] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:34:30] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:34:36] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:34:39] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:35:41] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:36:17] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:36:17] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:36:19] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 22:36:23] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:09:16] "GET /users/all_info HTTP/1.1" 200 -
+ERROR:app:Error during authentication: 'username'
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:16:18] "[35m[1mPOST /authenticate HTTP/1.1[0m" 500 -
+ERROR:app:Error during authentication: 'username'
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:16:19] "[35m[1mPOST /authenticate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:16:35] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:16:37] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:16:39] "GET /users/all_info HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:25:27] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:28:53] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:40:18] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:41:23] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:43:03] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:56:49] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 09:57:55] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 10:11:52] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 10:11:59] "GET /users HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 10:12:25] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 10:12:25] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 10:25:49] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 10:39:13] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 10:44:49] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 10:48:19] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 10:48:44] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:02:15] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:02:57] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:09:10] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:09:26] "GET /users HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:11:15] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:11:16] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:19:42] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:20:16] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:20:26] "GET /userprojects?username=Daniel%20Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:22:04] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:25:35] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:27:27] "GET /userprojects?username=Username HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:31:02] "GET /users HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:31:20] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:31:22] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:51:20] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:51:32] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:51:33] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:51:33] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:51:34] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:52:43] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:53:44] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:54:08] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:54:09] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:56:02] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:56:11] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:56:12] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:56:12] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:56:55] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:57:14] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:57:14] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 11:57:43] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:08:38] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:09:35] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:15:41] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:15:58] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:15:59] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:16:00] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:18:17] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:18:28] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:18:29] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:18:30] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:18:31] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:18:36] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:18:37] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:18:38] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:18:38] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:19:03] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:19:04] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:19:04] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:19:05] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:19:36] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:19:36] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:19:36] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:20:02] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:20:26] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:20:26] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:20:37] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:20:38] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:20:38] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Peter Pettigrew authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:21:15] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Peter Pettigrew authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:21:35] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:21:36] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:23:49] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:23:50] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:23:50] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Peter Pettigrew authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:23:52] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:23:54] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:23:54] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:23:56] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:23:57] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:37:11] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:37:12] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:37:26] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:37:27] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:app:User Peter Pettigrew authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:37:28] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:37:33] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:37:37] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:38:00] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:38:01] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:app:User Peter Pettigrew authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:38:04] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:38:07] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:39:53] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:40:25] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:40:26] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:41:49] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:41:49] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:41:55] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:54:07] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:54:09] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:54:10] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:55:07] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:55:08] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 12:55:12] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:01:02] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:01:03] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:02:04] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:02:05] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:02:06] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:02:27] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:02:28] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:02:29] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:15] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:16] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:24] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:25] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:33] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:34] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:34] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:34] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:42] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:43] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:43] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:03:43] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:04:26] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:04:27] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:04:28] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:04:29] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:31] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:32] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:33] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:41] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:41] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:41] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:43] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:47] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:52] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:53] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:08:54] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:09:24] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:09:47] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:09:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:09:49] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:09:49] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:09:49] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:10:17] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:10:17] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:10:18] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:11:15] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:11:15] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:11:15] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:11:16] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:11:17] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:12:24] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:12:25] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:12:26] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:14:49] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:14:49] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:14:50] "GET /users HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:14:52] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:14:59] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:14:59] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:15:00] "GET /users HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:02] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:02] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:03] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:04] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:04] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:22] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:22] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:22] "GET /users HTTP/1.1" 200 -
+INFO:app:User Peter Pettigrew authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:48] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:48] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:48] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:16:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:17:23] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:17:24] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:17:24] "GET /users HTTP/1.1" 200 -
+INFO:app:User Shagil Chaudhary authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:17:38] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:17:38] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:17:39] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:17:39] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:17:39] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:18:29] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:18:29] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:18:29] "GET /users HTTP/1.1" 200 -
+INFO:app:User John Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:18:41] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:18:42] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:18:42] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:18:42] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:18:43] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:01] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:01] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:02] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:10] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:11] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:12] "GET /users HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:47] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:47] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:47] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:48] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:25:49] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:27:30] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:27:31] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:27:31] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:27:32] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:28:58] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:29:40] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:29:41] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:29:41] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:29:41] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:29:42] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:38:06] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:38:07] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:38:08] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:38:09] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:38:10] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:38:11] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:38:11] "GET /users HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 13:38:19] "POST /authenticate HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:04:21] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:04:24] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:04:25] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Peter Pettigrew authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:05:16] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:05:18] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:05:56] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:05:58] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Peter Pettigrew authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:06:11] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:06:14] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:06:14] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:06:17] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:06:19] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:06:26] "GET /userprojects?username=Peter+Pettigrew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:06:26] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:11:02] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 14:11:30] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2023 23:59:27] "GET /users HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:00:25] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:00:26] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:00:37] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:00:38] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:03:50] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:14:48] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:15:10] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:23:14] "GET /roles HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:39:36] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:39:43] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:40:50] "GET /users HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:41:23] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:41:24] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:41:27] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:41:28] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:41:32] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:41:32] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:41:33] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 00:56:59] "GET /companies HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:08] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:09] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:12] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:14] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:17] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:18] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:19] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:19] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:31] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:31] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:32] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:35] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:35] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:02:36] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:06:55] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:06:56] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:06:58] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:07:29] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:08:04] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:08:05] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:08:05] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:08:05] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:08:06] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:08:07] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:09:40] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:09:41] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:09:41] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:09:42] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:09:43] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:05] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:05] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:06] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Daniel Devlin authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:31] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:32] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:34] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:34] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:56] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:56] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:56] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:10:57] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:11:29] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:11:29] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:11:30] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:11:39] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:11:40] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:11:43] "GET /userprojects?username=Daniel+Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:11:43] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:12:41] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:12:41] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:12:45] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:12:46] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:12:50] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:12:51] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:12:51] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:12:52] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:13:02] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:13:02] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:13:03] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:13] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:14] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:16] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:16] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:20] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:20] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:21] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:21] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:31] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:32] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 01:14:32] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:46:46] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:46:47] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:46:47] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:46:50] "GET /userprojects?username=Username HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:46:50] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:46:51] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:46:52] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:46:58] "GET /userprojects?username=Username HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:46:59] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:00] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:03] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:15] "GET /userprojects?username=Username HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:15] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:16] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:40] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:41] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:48] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:47:49] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:48:02] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:48:02] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 10:48:02] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:23:33] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:23:39] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:23:41] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:23:42] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:23:45] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:23:46] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:23:47] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Mick O'Gorman authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:43:53] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:44:11] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:44:12] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:44:13] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:45:06] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:45:06] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:45:07] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:46:04] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:46:04] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:50:53] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:51:27] "GET /userprojects?username=Mick+O'Gorman HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:51:28] "GET /userprojects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2023 13:51:29] "GET /projects HTTP/1.1" 200 -
