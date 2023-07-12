@@ -4,13 +4,11 @@ import json
 import logging
 
 app = Flask(__name__)
-
 # Create a connection to the database
 server = 'localhost\\SQLEXPRESS'
 database = 'timesheet2'
 cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';Trusted_Connection=yes;')
 cursor = cnxn.cursor()
-
 logging.basicConfig(filename='app.log', level=logging.DEBUG)
 
 #API Routes handling the errors in the application
@@ -234,7 +232,7 @@ def get_projects():
         # Return a JSON response with an error message and a 500 status code
         return jsonify({'error': 'Unknown error'}), 500
 
-
+"""
 # Define a GET route to retrieve all user projects
 @app.route('/userprojects', methods=['GET'])
 def get_user_projects():
@@ -259,6 +257,44 @@ def get_user_projects():
 
         # Return the list of user projects as a JSON response
         return json.dumps(json_data)
+
+    # Handle specific exceptions that may be raised during the execution of the code
+    except pyodbc.Error as error:
+        # Log the error message using Flask's built-in logger
+        app.logger.error(f'Database query error: {error}')
+        # Return a JSON response with an error message and a 500 status code
+        return jsonify({'error': 'Database query error'}), 500
+    except Exception as error:
+        # Log the error message using Flask's built-in logger
+        app.logger.error(f'Unknown error: {error}')
+        # Return a JSON response with an error message and a 500 status code
+        return jsonify({'error': 'Unknown error'}), 500
+"""
+
+@app.route('/userprojects/<username>', methods=['GET'])
+def get_user_projects(username):
+    try:
+        # Create a cursor object to execute SQL queries
+        cursor = cnxn.cursor()
+
+        # Execute the SQL query to retrieve the projects linked to the provided username
+        query = """
+        SELECT p.ProjectName
+        FROM Users u
+        JOIN UserProjects up ON u.UserID = up.UserID
+        JOIN Projects p ON up.ProjectID = p.ProjectID
+        WHERE (u.FirstName + ' ' + u.LastName) = ?
+        """
+        cursor.execute(query, (username,))
+
+        # Fetch all rows and convert them to a list
+        projects = [row[0] for row in cursor.fetchall()]
+
+        # Close the cursor to free up resources
+        cursor.close()
+
+        # Return the projects as a JSON response
+        return jsonify({'projects': projects})
 
     # Handle specific exceptions that may be raised during the execution of the code
     except pyodbc.Error as error:
@@ -309,6 +345,90 @@ def get_users_by_project(project_name):
         app.logger.error(f'Unknown error: {error}')
         # Return a JSON response with an error message and a 500 status code
         return jsonify({'error': 'Unknown error'}), 500
+    
+"""
+@app.route('/timesheet', methods=['GET'])
+def get_timesheet_entries():
+    try:
+        username = request.args.get('username')
+        project = request.args.get('project')
+
+        # Assuming you have a SQL query to fetch timesheet entries based on username and project
+        query = "SELECT * FROM timesheets WHERE username = %s AND project = %s"
+        cursor.execute(query, (username, project))
+
+        # Assuming you have a function to fetch all rows from the cursor
+        entries = cursor.fetchall()
+
+        # Assuming you have a function to convert the entries to a JSON format
+        entries_json = convert_to_json(entries)
+
+        return jsonify(entries_json)
+
+    except Exception as e:
+        # Log the exception
+        logging.error(f"Error occurred while retrieving timesheet entries: {e}")
+
+        # Return an error message as JSON response
+        return jsonify({'error': 'An error occurred while retrieving timesheet entries'}), 500
+"""
+
+@app.route('/timesheets', methods=['GET'])
+def get_timesheets():
+    first_name = request.args.get('FirstName')
+    project_name = request.args.get('ProjectName')
+
+    try:
+        # Establish a connection to the database
+        cursor = cnxn.cursor()
+
+        # Execute the SQL query with parameterized values
+        query = f"""
+        SELECT te.UserID, u.FirstName, te.ProjectName, pm.ManagerName, te.WeekNumber,
+               te.WeekStartDate, te.WeekEndDate,
+               te.MondayHours, te.TuesdayHours, te.WednesdayHours, te.ThursdayHours, te.FridayHours
+        FROM TimesheetEntries te
+        JOIN Users u ON te.UserID = u.UserID
+        JOIN ProjectManagers pm ON te.ManagerID = pm.ManagerID
+        WHERE u.FirstName = '{first_name}'
+        AND te.ProjectName = '{project_name}'
+        """
+
+        cursor.execute(query)
+
+        # Fetch all rows from the cursor
+        entries = cursor.fetchall()
+
+        # Prepare the response as a list of dictionaries
+        response = []
+        for row in entries:
+            entry = {
+                'UserID': row[0],
+                'FirstName': row[1],
+                'ProjectName': row[2],
+                'ManagerName': row[3],
+                'WeekNumber': row[4],
+                'WeekStartDate': row[5].isoformat(),
+                'WeekEndDate': row[6].isoformat(),
+                'MondayHours': row[7],
+                'TuesdayHours': row[8],
+                'WednesdayHours': row[9],
+                'ThursdayHours': row[10],
+                'FridayHours': row[11]
+            }
+            response.append(entry)
+
+        # Return the response as JSON
+        return jsonify(response)
+
+    except Exception as e:
+        # Add appropriate exception handling, logging, and error handling here
+        print(f"An error occurred: {str(e)}")
+        return jsonify({'error': 'An error occurred'}), 500
+
+
+
+
 
 #POST API Route for the application
 

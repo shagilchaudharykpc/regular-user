@@ -509,3 +509,13 @@ JOIN Users u ON te.UserID = u.UserID
 JOIN ProjectManagers pm ON te.ManagerID = pm.ManagerID;
 
 drop database timesheet2
+SELECT * FROM Companies
+
+SELECT te.UserID, u.FirstName, te.ProjectName, pm.ManagerName, te.WeekNumber,
+               te.WeekStartDate, te.WeekEndDate,
+               te.MondayHours, te.TuesdayHours, te.WednesdayHours, te.ThursdayHours, te.FridayHours
+        FROM TimesheetEntries te
+        JOIN Users u ON te.UserID = u.UserID
+        JOIN ProjectManagers pm ON te.ManagerID = pm.ManagerID
+        WHERE u.FirstName = 'Gerry'
+        AND te.ProjectName = 'WuXi'
