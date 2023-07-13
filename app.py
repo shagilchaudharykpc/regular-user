@@ -757,6 +757,48 @@ def authenticate():
         app.logger.error(f'Error during authentication: {e}')
         return 'Error during authentication', 500
 
+@app.route('/timesheets', methods=['POST'])
+def create_timesheet():
+    try:
+        # Parse the JSON data from the request
+        data = request.json
+
+        # Extract the required fields from the JSON data
+        first_name = data['FirstName']
+        project_name = data['ProjectName']
+        week_number = data['WeekNumber']
+        week_start_date = data['WeekStartDate']
+        week_end_date = data['WeekEndDate']
+        monday_hours = data['MondayHours']
+        tuesday_hours = data['TuesdayHours']
+        wednesday_hours = data['WednesdayHours']
+        thursday_hours = data['ThursdayHours']
+        friday_hours = data['FridayHours']
+
+        # Establish a connection to the database
+        cursor = cnxn.cursor()
+
+        # Execute the SQL query to insert the timesheet entry
+        query = f"""
+        INSERT INTO TimesheetEntries (UserID, ProjectName, WeekNumber, WeekStartDate, WeekEndDate,
+                                      MondayHours, TuesdayHours, WednesdayHours, ThursdayHours, FridayHours)
+        VALUES ((SELECT UserID FROM Users WHERE FirstName = '{first_name}'), '{project_name}', {week_number},
+                '{week_start_date}', '{week_end_date}', {monday_hours}, {tuesday_hours}, {wednesday_hours},
+                {thursday_hours}, {friday_hours})
+        """
+
+        cursor.execute(query)
+
+        # Commit the changes to the database
+        cnxn.commit()
+
+        # Return a success message
+        return jsonify({'message': 'Timesheet entry created successfully'})
+
+    except Exception as e:
+        # Add appropriate exception handling, logging, and error handling here
+        print(f"An error occurred: {str(e)}")
+        return jsonify({'error': 'An error occurred'}), 500
 
 #DELETE API routes for the application
 

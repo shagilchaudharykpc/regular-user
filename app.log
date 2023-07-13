@@ -2245,3 +2245,9 @@ INFO:werkzeug:127.0.0.1 - - [12/Jul/2023 13:55:08] "GET /projects HTTP/1.1" 200 
 INFO:werkzeug:127.0.0.1 - - [12/Jul/2023 13:55:14] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [12/Jul/2023 13:55:15] "GET /projects HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [12/Jul/2023 13:58:16] "GET /timesheets?FirstName=Gerry&ProjectName=WuXi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 09:00:36] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 09:00:47] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 09:00:47] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 09:00:48] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
