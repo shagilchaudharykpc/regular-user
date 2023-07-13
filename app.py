@@ -765,6 +765,8 @@ def create_timesheet():
 
         # Extract the required fields from the JSON data
         first_name = data['FirstName']
+        manager_name = data['ManagerName']
+        user_id = data['UserId']
         project_name = data['ProjectName']
         week_number = data['WeekNumber']
         week_start_date = data['WeekStartDate']
