@@ -2251,3 +2251,6 @@ INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 09:00:47] "[33mGET /userprojects?usern
 INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 09:00:48] "GET /projects HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 10:27:32] "[35m[1mPOST /timesheets HTTP/1.1[0m" 500 -

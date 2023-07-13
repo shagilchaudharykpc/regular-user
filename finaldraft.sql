@@ -83,6 +83,7 @@ CREATE TABLE UserProjectManager (
    CONSTRAINT fk_UserProjectManager_ProjectManagers FOREIGN KEY (ProjectManagerID) REFERENCES ProjectManagers(ManagerID)
 );
 
+
 -- Insert values into Companies table
 INSERT INTO Companies (CompanyName)
 VALUES ('KPC'), ('XYZ Company'), ('123 Company');
@@ -508,14 +509,59 @@ FROM TimesheetEntries te
 JOIN Users u ON te.UserID = u.UserID
 JOIN ProjectManagers pm ON te.ManagerID = pm.ManagerID;
 
-drop database timesheet2
-SELECT * FROM Companies
 
-SELECT te.UserID, u.FirstName, te.ProjectName, pm.ManagerName, te.WeekNumber,
-               te.WeekStartDate, te.WeekEndDate,
-               te.MondayHours, te.TuesdayHours, te.WednesdayHours, te.ThursdayHours, te.FridayHours
-        FROM TimesheetEntries te
-        JOIN Users u ON te.UserID = u.UserID
-        JOIN ProjectManagers pm ON te.ManagerID = pm.ManagerID
-        WHERE u.FirstName = 'Gerry'
-        AND te.ProjectName = 'WuXi'
+SELECT * FROM UserProjectRoles
+SELECT (u.FirstName + ' ' + u.LastName) AS 'Username',
+       c.CompanyName AS 'Company Name',
+       p.ProjectName,
+       r.RoleName
+FROM Users u
+JOIN Companies c ON u.CompanyID = c.CompanyID
+JOIN UserProjectRoles upr ON u.UserID = upr.UserID
+JOIN Projects p ON upr.ProjectID = p.ProjectID
+JOIN Roles r ON upr.RoleID = r.RoleID;
+
+CREATE TABLE UserProjectLink (
+   UserProjectLinkID INT IDENTITY(1,1) PRIMARY KEY,
+   UserID INT NOT NULL,
+   ProjectID INT NOT NULL,
+   CONSTRAINT fk_UserProjectLink_Users FOREIGN KEY (UserID) REFERENCES Users(UserID),
+   CONSTRAINT fk_UserProjectLink_Projects FOREIGN KEY (ProjectID) REFERENCES Projects(ProjectID),
+   CONSTRAINT unique_UserProjectLink UNIQUE (UserID, ProjectID)
+);
+
+-- Add columns for UserName and ProjectName
+ALTER TABLE UserProjectLink
+ADD UserName NVARCHAR(100),
+    ProjectName NVARCHAR(100);
+
+-- Update the UserName and ProjectName columns
+UPDATE UserProjectLink
+SET UserName = CONCAT(Users.FirstName, ' ', Users.LastName),
+    ProjectName = Projects.ProjectName
+FROM UserProjectLink
+JOIN Users ON Users.UserID = UserProjectLink.UserID
+JOIN Projects ON Projects.ProjectID = UserProjectLink.ProjectID;
+
+INSERT INTO UserProjectLink (UserName, ProjectName)
+SELECT CONCAT(Users.FirstName, ' ', Users.LastName), Projects.ProjectName
+FROM Users
+JOIN UserProjectLink ON Users.UserID = UserProjectLink.UserID
+JOIN Projects ON Projects.ProjectID = UserProjectLink.ProjectID
+WHERE CONCAT(Users.FirstName, ' ', Users.LastName, Projects.ProjectName) NOT IN (
+    SELECT CONCAT(UserName, ProjectName)
+    FROM UserProjectLink
+);
+
+
+
+SELECT * FROM UserProjectLink
+drop database timesheet2
+SELECT * FROM Users
+
+-- Insert values into UserProjectLink table for all existing users
+INSERT INTO UserProjectLink (UserID, ProjectID)
+SELECT u.UserID, p.ProjectID
+FROM Users u
+CROSS JOIN Projects p;
+
