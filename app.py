@@ -604,8 +604,7 @@ def update_project():
 def update_user_role():
     try:
         data = request.json
-        first_name = data['first_name']
-        last_name = data['last_name']
+        user_name = data['user_name']
         role_name = data['role_name']
         project_name = data['project_name']
         company_name = data['company_name']
@@ -631,18 +630,18 @@ def update_user_role():
 
         # Update the user's role for the specified project and company
         cursor.execute("""
-            UPDATE UserProjects 
+            UPDATE UserProjectLink 
             SET RoleID = ? 
             FROM Users 
-            JOIN UserProjects ON Users.UserID = UserProjects.UserID 
-            JOIN Projects ON UserProjects.ProjectID = Projects.ProjectID 
+            JOIN UserProjectLink ON Users.UserID = UserProjectLink.UserID 
+            JOIN Projects ON UserProjectLink.ProjectID = Projects.ProjectID 
             JOIN Companies ON Projects.CompanyID = Companies.CompanyID 
             WHERE Users.FirstName = ? AND Users.LastName = ? 
             AND Projects.ProjectID = ? AND Companies.CompanyID = ?
-        """, (role_id, first_name, last_name, project_id, company_id))
+        """, (role_id, user_name, project_id, company_id))
 
         cnxn.commit()
-        app.logger.info(f"User role updated successfully: {first_name} {last_name}")
+        app.logger.info(f"User role updated successfully: {user_name}")
         return jsonify({'message': 'User role updated successfully'}), 200
     except KeyError as e:
         app.logger.error(f"KeyError: {str(e)}")
@@ -685,7 +684,7 @@ def create_timesheet():
         data = request.json
 
         # Extract the required fields from the JSON data
-        first_name = data['FirstName']
+        user_name = data['UserName']
         manager_name = data['ManagerName']
         user_id = data['UserId']
         project_name = data['ProjectName']
@@ -705,7 +704,7 @@ def create_timesheet():
         query = f"""
         INSERT INTO TimesheetEntries (UserID, ProjectName, WeekNumber, WeekStartDate, WeekEndDate,
                                       MondayHours, TuesdayHours, WednesdayHours, ThursdayHours, FridayHours)
-        VALUES ((SELECT UserID FROM Users WHERE FirstName = '{first_name}'), '{project_name}', {week_number},
+        VALUES ((SELECT UserID FROM Users WHERE UserName = '{user_name}'), '{project_name}', {week_number},
                 '{week_start_date}', '{week_end_date}', {monday_hours}, {tuesday_hours}, {wednesday_hours},
                 {thursday_hours}, {friday_hours})
         """
@@ -726,13 +725,13 @@ def create_timesheet():
 #DELETE API routes for the application
 
 # Define a DELETE route to remove a user
-@app.route('/users/<first_name>', methods=['DELETE'])
-def delete_user(first_name):
+@app.route('/users/<user_name>', methods=['DELETE'])
+def delete_user(user_name):
     try:
         cursor = cnxn.cursor()
         
         # Check if user exists
-        cursor.execute("SELECT UserID FROM Users WHERE FirstName = ?", first_name)
+        cursor.execute("SELECT UserID FROM Users WHERE UserName = ?", user_name)
         row = cursor.fetchone()
         if row is None:
             return jsonify({'error': 'User not found'}), 404
@@ -741,10 +740,10 @@ def delete_user(first_name):
         cursor.execute("DELETE FROM UserProjects WHERE UserID = ?", row.UserID)
         
         # Delete user
-        cursor.execute("DELETE FROM Users WHERE FirstName = ?", first_name)
+        cursor.execute("DELETE FROM Users WHERE UserName = ?", user_name)
         cnxn.commit()
         
-        return jsonify({'message': f'{first_name} deleted successfully'})
+        return jsonify({'message': f'{user_name} deleted successfully'})
     
     except pyodbc.DatabaseError as e:
         cnxn.rollback()
