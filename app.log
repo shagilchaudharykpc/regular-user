@@ -2276,3 +2276,49 @@ INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:36:15] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:36:19] "GET /users/all_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:36:24] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:36:28] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:36:32] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:37:07] "GET /userprojects/Daniel%20Devlin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:37:19] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:37:31] "GET /userprojects/Edem%20Iron HTTP/1.1" 200 -
+ERROR:app:Database query error: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'UserProjects'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:39:10] "[35m[1mGET /users/NuaVal HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Database query error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'Users'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:40:00] "[35m[1mGET /users/NuaVal HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Database query error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'Users'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:40:08] "[35m[1mGET /users/NuaVal HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:40:17] "GET /projects HTTP/1.1" 200 -
+ERROR:app:Database query error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'Users'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:40:32] "[35m[1mGET /users/MFG7 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Database query error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'Users'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:41:21] "[35m[1mGET /users/MFG7 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Database query error: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'UserProjects'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:41:50] "[35m[1mGET /users/MFG7 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:42:22] "GET /users/MFG7 HTTP/1.1" 200 -

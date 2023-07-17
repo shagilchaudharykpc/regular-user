@@ -270,7 +270,7 @@ def get_users_by_project(project_name):
         cursor = cnxn.cursor()
 
         # Execute the SQL query to get all users associated with the project
-        cursor.execute('SELECT Users.* FROM Users INNER JOIN UserProjects ON Users.UserID = UserProjectLink.UserID INNER JOIN Projects ON UserProjectLink.ProjectID = Projects.ProjectID WHERE Projects.ProjectName = ?', project_name)
+        cursor.execute('SELECT * FROM Users INNER JOIN UserProjectLink ON Users.UserID = UserProjectLink.UserID INNER JOIN Projects ON UserProjectLink.ProjectID = Projects.ProjectID WHERE Projects.ProjectName = ?', project_name)
 
         # Get the column names to use as keys in the JSON output
         row_headers=[x[0] for x in cursor.description]
