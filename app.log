@@ -2267,3 +2267,8 @@ INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 787-457-205
 INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 10:54:25] "[35m[1mPOST /timesheets HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 12:00:50] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 12:00:50] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 12:00:51] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 12:01:25] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2023 12:01:26] "GET /projects HTTP/1.1" 200 -
