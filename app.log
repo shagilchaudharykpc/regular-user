@@ -2322,3 +2322,13 @@ INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 787-457-205
 INFO:werkzeug:127.0.0.1 - - [17/Jul/2023 14:42:22] "GET /users/MFG7 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:08] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:15] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:24] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:47] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:54] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:56] "GET /projects HTTP/1.1" 200 -

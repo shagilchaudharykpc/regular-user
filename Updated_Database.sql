@@ -423,3 +423,21 @@ SELECT te.UserID,u.UserName, te.ProjectName, pm.ManagerName, te.WeekNumber,
 FROM TimesheetEntries te
 JOIN Users u ON te.UserID = u.UserID
 JOIN ProjectManagers pm ON te.ManagerID = pm.ManagerID;
+
+-- Test area to check different base table's contents
+
+SELECT * FROM ProjectManagers
+SELECT * FROM Users
+SELECT * FROM Roles
+SELECT * FROM Projects
+SELECT * FROM Companies
+SELECT * FROM UserCredentials
+SELECT * FROM Office
+SELECT * FROM Department
+SELECT * FROM TimesheetEntries
+
+-- Test area to check different link table's contents
+
+SELECT * FROM UserProjectRoles
+SELECT * FROM UserProjectManager
+SELECT * FROM UserProjectLink
