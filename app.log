@@ -2332,3 +2332,103 @@ INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:24] "GET /projects HTTP/1.1" 200 
 INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:47] "GET /projects HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:54] "GET /projects HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [19/Jul/2023 15:33:56] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:47:01] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:47:06] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:47:06] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:47:08] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:47:09] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:48:43] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:48:53] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:48:53] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:48:54] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 16:48:55] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:14:55] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:14:56] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:15:39] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:15:40] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Edem Iron authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:16:23] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:16:23] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:16:23] "[33mGET /userprojects HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:16:28] "[33mGET /userprojects?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:16:28] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2023 17:16:40] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 09:45:07] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 09:51:10] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 09:51:11] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 09:51:13] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 09:51:13] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 09:51:16] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 09:51:17] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 12:24:52] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:02:17] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:02:17] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:02:17] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:02:18] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:02:18] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:02:20] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:06:46] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:06:47] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:06:49] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:06:52] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:06:54] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:18:26] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:30:06] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:36:02] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:36:44] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:38:06] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:48:03] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:49:11] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:49:16] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:49:16] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:49:16] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:49:17] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:51:10] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:51:50] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:53:38] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:53:43] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:53:43] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:53:44] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:53:44] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:54:31] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug: * Detected change in 'C:\\Users\\shagi\\OneDrive\\Desktop\\kpc inter-trade documents\\coding\\regular user\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:55:38] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 14:57:13] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 15:05:49] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 15:06:54] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 15:07:37] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 15:07:37] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 15:07:38] "[33mGET /userprojects?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 15:07:38] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jul/2023 15:08:46] "GET /projects HTTP/1.1" 200 -

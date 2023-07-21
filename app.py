@@ -352,7 +352,46 @@ def get_timesheets():
         # Add appropriate exception handling, logging, and error handling here
         print(f"An error occurred: {str(e)}")
         return jsonify({'error': 'An error occurred'}), 500
-    
+
+#GET API route to get all the managers in the database
+@app.route('/project_managers', methods=['GET'])
+def get_project_managers():
+    try:
+        # Create a cursor object to execute SQL queries
+        cursor = cnxn.cursor()
+
+        # Execute the SQL query to get all project managers
+        cursor.execute('SELECT * FROM ProjectManagers')
+
+        # Get the column names to use as keys in the JSON output
+        row_headers = [x[0] for x in cursor.description]
+
+        # Fetch all rows and convert them to a list of dictionaries
+        project_managers = cursor.fetchall()
+        json_data = []
+        for result in project_managers:
+            json_data.append(dict(zip(row_headers, result)))
+
+        # Close the cursor to free up resources
+        cursor.close()
+
+        # Return the list of project managers as a JSON response
+        return json.dumps(json_data)
+
+    # Handle specific exceptions that may be raised during the execution of the code
+    except pyodbc.Error as error:
+        # Log the error message using Flask's built-in logger
+        app.logger.error(f'Database query error: {error}')
+        # Return a JSON response with an error message and a 500 status code
+        return jsonify({'error': 'Database query error'}), 500
+    except Exception as error:
+        # Log the error message using Flask's built-in logger
+        app.logger.error(f'Unknown error: {error}')
+        # Return a JSON response with an error message and a 500 status code
+        return jsonify({'error': 'Unknown error'}), 500
+
+
+
 
 #POST API Route for the application
 
