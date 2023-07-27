@@ -429,6 +429,53 @@ def get_user_projects_roles():
         # Return a JSON response with an error message and a 500 status code
         return jsonify({'error': 'Unknown error'}), 500
 
+@app.route('/timesheets_all', methods=['GET'])
+def get_timesheets_all():
+    try:
+        # Establish a connection to the database
+        cursor = cnxn.cursor()
+
+        # Execute the SQL query with parameterized values
+        query = f"""
+        SELECT te.UserID,u.UserName, te.ProjectName, pm.ManagerName, te.WeekNumber,
+       te.WeekStartDate, te.WeekEndDate,
+       te.MondayHours, te.TuesdayHours, te.WednesdayHours, te.ThursdayHours, te.FridayHours
+       FROM TimesheetEntries te
+       JOIN Users u ON te.UserID = u.UserID
+       JOIN ProjectManagers pm ON te.ManagerID = pm.ManagerID;
+        """
+
+        cursor.execute(query)
+
+        # Fetch all rows from the cursor
+        entries = cursor.fetchall()
+
+        # Prepare the response as a list of dictionaries
+        response = []
+        for row in entries:
+            entry = {
+                'UserID': row[0],
+                'UserName': row[1],
+                'ProjectName': row[2],
+                'ManagerName': row[3],
+                'WeekNumber': row[4],
+                'WeekStartDate': row[5].isoformat(),
+                'WeekEndDate': row[6].isoformat(),
+                'MondayHours': row[7],
+                'TuesdayHours': row[8],
+                'WednesdayHours': row[9],
+                'ThursdayHours': row[10],
+                'FridayHours': row[11]
+            }
+            response.append(entry)
+
+        # Return the response as JSON
+        return jsonify(response)
+
+    except Exception as e:
+        # Add appropriate exception handling, logging, and error handling here
+        print(f"An error occurred: {str(e)}")
+        return jsonify({'error': 'An error occurred'}), 500
 
 #POST API Route for the application
 
