@@ -1,5 +1,5 @@
 #importing necessary libraries
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, render_template, jsonify, Response
 import pyodbc
 import json
 import logging
@@ -224,8 +224,8 @@ def get_projects():
         return jsonify({'error': 'Unknown error'}), 500
 
 
-@app.route('/userprojects/<username>', methods=['GET'])
-def get_user_projects(username):
+@app.route('/userprojects/<UserName>', methods=['GET'])
+def get_user_projects(UserName):
     try:
         # Create a cursor object to execute SQL queries
         cursor = cnxn.cursor()
@@ -234,11 +234,11 @@ def get_user_projects(username):
         query = """
         SELECT p.ProjectName
         FROM Users u
-        JOIN UserProjectLink up ON u.UserID = up.UserID
+        JOIN UserProjectRoles up ON u.UserID = up.UserID
         JOIN Projects p ON up.ProjectID = p.ProjectID
         WHERE (u.UserName) = ?
         """
-        cursor.execute(query, (username,))
+        cursor.execute(query, (UserName,))
 
         # Fetch all rows and convert them to a list
         projects = [row[0] for row in cursor.fetchall()]
@@ -353,6 +353,8 @@ def get_timesheets():
         print(f"An error occurred: {str(e)}")
         return jsonify({'error': 'An error occurred'}), 500
 
+
+
 #GET API route to get all the managers in the database
 @app.route('/project_managers', methods=['GET'])
 def get_project_managers():
@@ -361,7 +363,7 @@ def get_project_managers():
         cursor = cnxn.cursor()
 
         # Execute the SQL query to get all project managers
-        cursor.execute('SELECT * FROM ProjectManagers')
+        cursor.execute('SELECT ManagerName FROM ProjectManagers')
 
         # Get the column names to use as keys in the JSON output
         row_headers = [x[0] for x in cursor.description]
@@ -391,6 +393,41 @@ def get_project_managers():
         return jsonify({'error': 'Unknown error'}), 500
 
 
+@app.route('/userprojectsroles', methods=['GET'])
+def get_user_projects_roles():
+    try:
+        # Create a cursor object to execute SQL queries
+        cursor = cnxn.cursor()
+
+        # Execute the SQL query to get all projects
+        cursor.execute('SELECT * FROM UserProjectRoles')
+
+        # Get the column names to use as keys in the JSON output
+        row_headers=[x[0] for x in cursor.description]
+
+        # Fetch all rows and convert them to a list of dictionaries
+        projects = cursor.fetchall()
+        json_data=[]
+        for result in projects:
+            json_data.append(dict(zip(row_headers,result)))
+
+        # Close the cursor to free up resources
+        cursor.close()
+
+        # Return the list of projects as a JSON response
+        return json.dumps(json_data)
+
+    # Handle specific exceptions that may be raised during the execution of the code
+    except pyodbc.Error as error:
+        # Log the error message using Flask's built-in logger
+        app.logger.error(f'Database query error: {error}')
+        # Return a JSON response with an error message and a 500 status code
+        return jsonify({'error': 'Database query error'}), 500
+    except Exception as error:
+        # Log the error message using Flask's built-in logger
+        app.logger.error(f'Unknown error: {error}')
+        # Return a JSON response with an error message and a 500 status code
+        return jsonify({'error': 'Unknown error'}), 500
 
 
 #POST API Route for the application

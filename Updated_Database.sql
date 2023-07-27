@@ -139,11 +139,12 @@ VALUES ('Admin'), ('Engineering'), ('Finance'), ('HR/Admin'), ('Innovation'), ('
 
 CREATE TABLE ProjectManagers (
     ManagerID INT IDENTITY(1,1) PRIMARY KEY,
-    ProjectID INT NOT NULL,
     ManagerName VARCHAR(100) NOT NULL,
+    ProjectID INT NOT NULL,
     CONSTRAINT unique_ProjectManager UNIQUE (ProjectID),
     CONSTRAINT fk_ProjectManagers_Projects FOREIGN KEY (ProjectID) REFERENCES Projects(ProjectID)
 );
+
 
 -- Inserting into ProjectManagers table
 
@@ -427,9 +428,10 @@ JOIN ProjectManagers pm ON te.ManagerID = pm.ManagerID;
 -- Test area to check different base table's contents
 
 SELECT * FROM ProjectManagers
+SELECT ManagerName FROM ProjectManagers
+SELECT * FROM Projects
 SELECT * FROM Users
 SELECT * FROM Roles
-SELECT * FROM Projects
 SELECT * FROM Companies
 SELECT * FROM UserCredentials
 SELECT * FROM Office
@@ -441,3 +443,19 @@ SELECT * FROM TimesheetEntries
 SELECT * FROM UserProjectRoles
 SELECT * FROM UserProjectManager
 SELECT * FROM UserProjectLink
+
+
+-- Drop the database 'timesheet3'
+-- Connect to the 'master' database to run this snippet
+USE master
+GO
+-- Uncomment the ALTER DATABASE statement below to set the database to SINGLE_USER mode if the drop database command fails because the database is in use.
+-- ALTER DATABASE timesheet3 SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+-- Drop the database if it exists
+IF EXISTS (
+  SELECT name
+   FROM sys.databases
+   WHERE name = N'timesheet3'
+)
+DROP DATABASE timesheet3
+GO
