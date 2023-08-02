@@ -363,7 +363,7 @@ def get_project_managers():
         cursor = cnxn.cursor()
 
         # Execute the SQL query to get all project managers
-        cursor.execute('SELECT ManagerName FROM ProjectManagers')
+        cursor.execute('SELECT ManagerName, ManagerID FROM ProjectManagers')
 
         # Get the column names to use as keys in the JSON output
         row_headers = [x[0] for x in cursor.description]

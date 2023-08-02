@@ -428,6 +428,7 @@ JOIN ProjectManagers pm ON te.ManagerID = pm.ManagerID;
 -- Test area to check different base table's contents
 
 SELECT * FROM ProjectManagers
+SELECT ManagerName, ManagerID FROM ProjectManagers
 SELECT ManagerName FROM ProjectManagers
 SELECT * FROM Projects
 SELECT * FROM Users
