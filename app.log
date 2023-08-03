@@ -4344,3 +4344,143 @@ INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:06:54] "GET /projects HTTP/1.1" 200 
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:06:54] "GET /project_managers HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:06:55] "GET /project_managers HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:06:55] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:12] "[33mGET /userprojects/?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:13] "GET /projects HTTP/1.1" 200 -
+INFO:app:User Edem Iron authenticated successfully
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:34] "POST /authenticate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:35] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:35] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:38] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:38] "GET /roles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:39] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:39] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:40] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:43] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:43] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:52] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:08:52] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:09:11] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:09:11] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:09:27] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:09:27] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:09:39] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:09:51] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:09:57] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:10:00] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:10:27] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:10:35] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:12:23] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:16:53] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:16:53] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:16:53] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:17:07] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:17:08] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:17:17] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:17:17] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:17:20] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:17:20] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:17:47] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:17:47] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:08] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:08] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:12] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:27] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:27] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:30] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:49] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:54] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:56] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:18:58] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:19:13] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:19:20] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:19:43] "GET /userprojectsroles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:19:54] "GET /userprojectsroles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:19:57] "GET /userprojectsroles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:19:57] "GET /userprojectsroles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:23:46] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:23:47] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:23:56] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:23:56] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:23:56] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:23:59] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:00] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:00] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:00] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:37] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:37] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:37] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:37] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:37] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:40] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:41] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:41] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:41] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:42] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:42] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:42] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:42] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:43] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:44] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:44] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:44] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:46] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:46] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:24:46] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:27:17] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:27:17] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:27:19] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:27:21] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:28:23] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:28:32] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:28:33] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:28:47] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:28:47] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:28:58] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:28:58] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:28:59] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:28:59] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:26] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:27] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:27] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:27] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:29] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:29] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:29] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:31] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:31] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:32] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:36] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:36] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:36] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:36] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:48] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:29:49] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:30:09] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:30:09] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:30:18] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:30:18] "[33mGET /userprojects/?username=Edem+Iron HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:30:19] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 15:30:19] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
+ERROR:app:Database query error: ('HY000', '[HY000] [Microsoft][ODBC Driver 17 for SQL Server]Connection is busy with results for another command (0) (SQLExecDirectW)')
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 09:56:12] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 09:56:12] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 09:56:12] "GET /userprojectsroles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 09:56:12] "GET /companies HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 09:56:12] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 09:56:13] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 09:56:18] "[33mGET /userprojects/?username=Username HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 09:56:18] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 10:15:28] "GET /projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2023 10:15:28] "GET /project_managers HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-457-205
